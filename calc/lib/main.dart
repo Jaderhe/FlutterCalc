@@ -109,10 +109,6 @@ class _MyHomePageState extends State<MyHomePage> {
         new RaisedButton(
           onPressed: () {calcular(context, "/"); },
           child: Text('/'),
-        ),
-        new RaisedButton(
-          onPressed: () {Navigator.pop(context); },
-          child: Text('Voltar'),
         ) 
       ],
     );
